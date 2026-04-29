@@ -1,7 +1,0 @@
-REGISTRO ARCANO
-
-Entrada 14:
-CODIGO_COFRE=DRAGON-404
-
-Nota del bibliotecario:
-Guarda bien este codigo. Lo necesitaras al volver a la Caja_Fuerte.

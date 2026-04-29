@@ -1,0 +1,9 @@
+CATALOGO DE LA BIBLIOTECA
+
+- historia_del_reino.txt
+- bestiario.txt
+- poemas.txt
+- registro_arcano.txt
+- Archivo_Secreto/
+
+Si buscas algo concreto, no abras todo a mano.

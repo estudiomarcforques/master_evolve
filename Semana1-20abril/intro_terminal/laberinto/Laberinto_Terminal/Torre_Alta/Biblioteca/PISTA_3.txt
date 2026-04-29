@@ -1,0 +1,9 @@
+PISTA 3
+
+La llave no esta al aire libre.
+Se escondio dentro de Archivo_Secreto.
+
+Consejo:
+- usa ls para orientarte
+- usa find si quieres localizar la llave mas rapido
+- usa grep para descubrir el codigo del cofre

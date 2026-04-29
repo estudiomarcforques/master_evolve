@@ -1,0 +1,2 @@
+Si el candado se abre bien, el propio script te dira el siguiente
+comando exacto para llegar al tesoro.

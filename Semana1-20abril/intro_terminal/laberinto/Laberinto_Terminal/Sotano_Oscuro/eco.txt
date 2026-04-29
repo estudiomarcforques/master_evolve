@@ -1,0 +1,2 @@
+El eco repite:
+"La caja existe, pero sigue cerrada."

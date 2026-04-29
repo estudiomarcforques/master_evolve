@@ -1,0 +1,14 @@
+CANDADO DE LA CAJA FUERTE
+
+Inscripcion del metal:
+"La llave abre la cerradura."
+"El codigo abre el mecanismo."
+"El comando correcto abre el final."
+
+Ya deberias tener el codigo: DRAGON-404
+
+Cuando estes en esta carpeta, escribe exactamente:
+python3 abrir_candado.py DRAGON-404
+
+Si tu sistema usa python en vez de python3, prueba:
+python abrir_candado.py DRAGON-404

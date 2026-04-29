@@ -1,0 +1,51 @@
+COMANDOS PARA WINDOWS (POWERSHELL)
+Usa esta chuleta solo si no has podido instalar Git Bash.
+La clase está pensada para Mac / Linux / Git Bash, así que en PowerShell
+algunos comandos cambian.
+
+ENTORNOS VIRTUALES Y PYTHON (WINDOWS)
+
+ - python -m venv venv --> Crea un entorno virtual llamado "venv".
+ - .\venv\Scripts\Activate.ps1 --> Activa el entorno virtual en PowerShell.
+ - deactivate --> Desactiva el entorno virtual.
+ - pip install -r requirements.txt --> Instala dependencias desde requirements.txt.
+ - pip freeze > requirements.txt --> Guarda las librerías instaladas y sus versiones.
+
+COMANDOS BÁSICOS DE TERMINAL EN WINDOWS (POWERSHELL)
+
+ - pwd --> Muestra la ruta actual.
+ - cd ~ --> Accede al directorio personal del usuario.
+ - cd .. --> Sube un nivel en la estructura de carpetas.
+ - ls --> Muestra los archivos y carpetas del directorio actual.
+ - Get-ChildItem -Force --> Lista también archivos ocultos.
+ - mkdir nombrecarpeta --> Crea una nueva carpeta.
+ - mkdir nom1, nom2, nom3 --> Crea varias carpetas.
+ - New-Item archivo.txt -ItemType File --> Crea un archivo vacío.
+ - Copy-Item notas.txt backup_notas.txt --> Copia un archivo con otro nombre.
+ - Move-Item backup_notas.txt output/ --> Mueve un archivo a otra carpeta.
+ - Set-Content archivo.txt "Hola terminal" --> Escribe texto dentro de un archivo.
+ - Add-Content saludo.txt "Estoy aprendiendo a moverme" --> Añade texto al final del archivo.
+ - Get-Content archivo.txt --> Muestra el contenido completo de un archivo.
+ - Get-Content archivo.txt | more --> Muestra el contenido paginado.
+ - Remove-Item archivo.txt --> Elimina un archivo.
+ - Remove-Item carpeta -Recurse -Force --> Elimina una carpeta con todo su contenido.
+ - tree --> Muestra la estructura de carpetas en forma de árbol.
+ - tree /F --> Muestra carpetas y archivos.
+ - tree /A --> Usa caracteres ASCII.
+
+BUSCAR ARCHIVOS Y TEXTO EN POWERSHELL
+
+ - Get-ChildItem -Recurse -Filter *.txt --> Busca todos los .txt desde la carpeta actual.
+ - Get-ChildItem -Recurse -Filter llave_sotano.txt --> Busca un archivo por nombre.
+ - Get-ChildItem -Recurse -File | Select-String "CODIGO_COFRE" --> Busca texto dentro de archivos.
+
+EJECUTAR PYTHON EN WINDOWS
+
+ - python .\archivo.py --> Ejecuta un script de Python.
+ - py .\archivo.py --> Alternativa habitual en Windows.
+ - python .\abrir_candado.py DRAGON-404 --> Ejecuta un script con argumento.
+
+NOTA PARA EL LABERINTO
+
+En clase yo enseñaré comandos de Mac. Si estás en Git Bash, escribe casi lo mismo.
+Si estás en PowerShell, usa esta chuleta para traducirlos sin bloquearte.

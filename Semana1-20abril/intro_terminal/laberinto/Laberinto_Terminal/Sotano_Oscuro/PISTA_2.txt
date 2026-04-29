@@ -1,0 +1,8 @@
+PISTA 2
+
+La Caja_Fuerte esta cerrada.
+La llave no esta aqui.
+La guardaron en lo mas alto del castillo.
+
+Sube a Torre_Alta/Biblioteca.
+Si no encuentras la llave a simple vista, usa find.

@@ -1,0 +1,11 @@
+LLAVE DEL SOTANO
+
+Bien hecho.
+Esta es la llave correcta para la Caja_Fuerte del Sotano_Oscuro.
+
+Antes de volver abajo te falta una cosa:
+el codigo secreto del cofre.
+
+Pista:
+Vuelve un nivel arriba, a la Biblioteca, y busca alli la palabra
+CODIGO_COFRE con grep -R.

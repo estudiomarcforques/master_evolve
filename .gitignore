@@ -1,7 +1,0 @@
-#Se utiliza para ignorar archivos o carpetas que no queremos que se suban al repositorio, como archivos temporales, archivos de configuración, etc.
-
-venv
-*.csv
-*.pdf
-.venv
-notas.txt
